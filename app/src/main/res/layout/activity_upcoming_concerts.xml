@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="#E3F2FD">
+
+    <TextView
+        android:text="Upcoming concerts from futuristic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:layout_weight="1"
+        >
+    </TextView>
+    <Button
+        android:id="@+id/buttonBackToStartPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Back to the start page"
+        android:layout_weight="7"/>^
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="#E3F2FD">
+
+    <TextView
+        android:id="@+id/favoriteSong"
+        android:text="Favorite Songs"
+        android:layout_marginTop="16dp"
+        style="@style/overview"
+        android:background="#90CAF9"
+        />
+    <TextView
+        android:id="@+id/songText"
+        android:text="Song texts"
+        style="@style/overview"
+        android:background="#80DEEA"
+        />
+    <TextView
+        android:id="@+id/donateForTheArtist"
+        android:text="Donate for the Artist"
+        style="@style/overview"
+        android:background="#A5D6A7"
+        />
+    <TextView
+        android:id="@+id/upcomingConcerts"
+        android:text="Upcoming concerts"
+        android:layout_marginBottom="16dp"
+        style="@style/overview"
+        android:background="#FFF59D"
+        />
+</LinearLayout>
